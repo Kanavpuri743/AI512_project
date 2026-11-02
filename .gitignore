@@ -1,0 +1,42 @@
+# Python environments and generated files
+venv/
+.venv/
+**/__pycache__/
+*.py[cod]
+
+# Local credentials and environment configuration
+.env
+.env.*
+.kaggle/
+
+# NightCity dataset and downloaded archives
+/NightCity/data/
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Model checkpoints and exported weights
+*.pt
+*.pth
+*.ckpt
+
+# Training, evaluation, and Kaggle-generated artifacts
+/NightCity/outputs/
+/NightCity/predictions/
+/NightCity/smoke_*/
+/NightCity/previews/
+/nightcity_baseline_300/
+/nightcity_baseline_300_evaluation/
+/kaggle_output/
+
+# Local editor and operating-system files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# 
+dataset_notes.md
+model_original.py
